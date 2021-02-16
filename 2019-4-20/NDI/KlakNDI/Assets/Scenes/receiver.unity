@@ -469,7 +469,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a09ab5fc64402d49b12d170a7577986, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _ndiName: 
+  _ndiName: LAPTOP-BPPCTPCQ (TouchDesigner)
   _targetTexture: {fileID: 8400000, guid: e1de472b5b37a40a9be3fde5d4693cf5, type: 2}
   _targetRenderer: {fileID: 0}
   _targetMaterialProperty: 

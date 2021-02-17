@@ -315,7 +315,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a09ab5fc64402d49b12d170a7577986, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _ndiName: LAPTOP-BPPCTPCQ (TouchDesigner)
+  _ndiName: KSMBA (Game View)
   _targetTexture: {fileID: 8400000, guid: 97cf47c3746960e47b7f8d52092a5b9e, type: 2}
   _targetRenderer: {fileID: 0}
   _targetMaterialProperty: 

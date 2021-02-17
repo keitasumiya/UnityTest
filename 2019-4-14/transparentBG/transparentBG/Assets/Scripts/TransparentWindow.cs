@@ -68,7 +68,8 @@ public class TransparentWindow : MonoBehaviour
             const uint WS_EX_TRANSPARENT = 0x00000020;
 
             SetWindowLong(windowHandle, GWL_STYLE, WS_POPUP);
-            SetWindowLong(windowHandle, GWL_EXSTYLE, WS_EX_LAYERD | WS_EX_TRANSPARENT);
+            //SetWindowLong(windowHandle, GWL_EXSTYLE, WS_EX_LAYERD | WS_EX_TRANSPARENT);
+            SetWindowLong(windowHandle, GWL_EXSTYLE, WS_EX_TRANSPARENT);
         }
 
         { // SetWindowPos

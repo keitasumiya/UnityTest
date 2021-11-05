@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1737846579538004078
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1737846579538004079}
+  - component: {fileID: 1737846579538004064}
+  m_Layer: 0
+  m_Name: AVProVideoPlayerPrefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1737846579538004079
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1737846579538004078}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1737846579538004064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1737846579538004078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0c7bc069c754084c9414fafa6a47845, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MediaPlayerPrefab: {fileID: 2651958628534562930, guid: a3c9bf25404dd664880297674ed72e97, type: 3}
+  VideoPanelPrefab: {fileID: 7942800904193982515, guid: e2432668cbb314f4a82529c769f8d4f7, type: 3}
+  VideoPanel: {fileID: 0}
+  ContentsPanel: {fileID: 0}
+  FileDir: C:\Users\ks\Documents\UnityTest\2020-3-21\AVPro\multi-video\Assets\StreamingAssets\chart\768x640s
+  FileName: chart-random_01.mov
+  CurrentVideoTimeSec: 0
+  displayIndex: 1

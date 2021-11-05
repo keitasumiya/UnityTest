@@ -23,3 +23,5 @@ Temp
 *.dll
 *.bin
 *.onnx
+
+/Assets/StreamingAssets/AVProVideoSamples/

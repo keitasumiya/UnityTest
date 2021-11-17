@@ -44,10 +44,14 @@ public class Manager : MonoBehaviour
        if(Input.GetKeyDown(KeyCode.Alpha2)){
             Reset();            
             Vector3 p = SignAInitialPosition;
+            Debug.Log(p);
             p.z = -0.0f;
             endPosition = p;
             Vector3 s = SignA.transform.localScale;
+            Debug.Log(s);
+            Debug.Log(s.y);
             p.y = s.y; // move to up
+            Debug.Log(p);
             SignB.transform.position = p;
             SignB.transform.DOMove(endPosition, duration).SetEase(Ease.InOutQuart);
         }

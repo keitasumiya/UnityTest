@@ -92,17 +92,19 @@ public class Manager : MonoBehaviour
             startTime = Time.time;        
         }
 
-        if(mode == 5){
+        if (mode == 5)
+        {
             Vector3 p = SignAInitialPosition;
             p.z = 0.0f;
             float progress = (Time.time - startTime) / duration;
-            if(progress > 0.5f){
+            if (progress > 0.5f)
+            {
                 SignB.transform.position = p;
-                mode =0;
+                mode = 0;
             }
         }
 
-       if(Input.GetKeyDown(KeyCode.Alpha6)){
+        if (Input.GetKeyDown(KeyCode.Alpha6)){
            Reset();
            SignA.SetActive(false);
            SignB.SetActive(false);
